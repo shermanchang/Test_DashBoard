@@ -1,0 +1,6 @@
+Value OISType (.*)
+Value OISVersion (.*)
+
+Start
+  ^OISType:${OISType}
+  ^OISVersion:${OISVersion}

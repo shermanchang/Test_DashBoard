@@ -1,0 +1,31 @@
+Value PPVS1Version (.*)
+Value PPVS1ConfigVersion (.*)
+Value PPVS2Version (.*)
+Value PPVS2ConfigVersion (.*)
+Value PPVS3Version (.*)
+Value PPVS3ConfigVersion (.*)
+Value PPVS4Version (.*)
+Value PPVS4ConfigVersion (.*)
+Value PPVS5Version (.*)
+Value PPVS5ConfigVersion (.*)
+Value PPVS6Version (.*)
+Value PPVS6ConfigVersion (.*)
+Value PPVS7Version (.*)
+Value PPVS7ConfigVersion (.*)
+
+
+Start
+  ^PPVS1Version:${PPVS1Version}
+  ^PPVS1ConfigVersion:${PPVS1ConfigVersion}
+  ^PPVS2Version:${PPVS2Version}
+  ^PPVS2ConfigVersion:${PPVS2ConfigVersion}
+  ^PPVS3Version:${PPVS3Version}
+  ^PPVS3ConfigVersion:${PPVS3ConfigVersion}
+  ^PPVS4Version:${PPVS4Version}
+  ^PPVS4ConfigVersion:${PPVS4ConfigVersion}
+  ^PPVS5Version:${PPVS5Version}
+  ^PPVS5ConfigVersion:${PPVS5ConfigVersion}
+  ^PPVS6Version:${PPVS6Version}
+  ^PPVS6ConfigVersion:${PPVS6ConfigVersion}
+  ^PPVS7Version:${PPVS7Version}
+  ^PPVS7ConfigVersion:${PPVS7ConfigVersion}

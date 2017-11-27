@@ -1,0 +1,57 @@
+2017-10-26 13:29:57,746 root         MainThread: INFO     script version - version 2.0.0
+2017-10-26 13:29:57,746 root         MainThread: INFO     /home/tcs/PycharmProjects/Test_DashBoard/Dashboard.db
+2017-10-26 13:29:57,746 root         MainThread: INFO     /home/tcs/PycharmProjects/Test_DashBoard/CCDServer.log
+2017-10-26 13:29:57,746 root         MainThread: INFO     starting up on 127.0.0.1 port 5092
+2017-10-26 13:29:57,747 root         MainThread: INFO     Server loop running in thread:Thread-6
+2017-10-26 13:45:11,734 root         MainThread: INFO     script version - version 2.0.0
+2017-10-26 13:45:11,735 root         MainThread: INFO     /home/tcs/PycharmProjects/Test_DashBoard/Dashboard.db
+2017-10-26 13:45:11,735 root         MainThread: INFO     /home/tcs/PycharmProjects/Test_DashBoard/CCDServer.log
+2017-10-26 13:45:11,735 root         MainThread: INFO     starting up on 127.0.0.1 port 5092
+2017-10-26 13:45:11,742 root         MainThread: INFO     Server loop running in thread:Thread-6
+2017-10-26 13:56:27,821 root         Thread-7: DEBUG    client id: 127.0.
+2017-10-26 13:56:33,288 root         Thread-7: DEBUG    raw_data:
+dashboard/pts/tcs
+PCVUE:{
+PCVUE Version:1.0.8
+}
+OIS:{
+OISType:IMPAC Medical Systems, Inc.
+OISVersion:3.14.07A8
+}
+TCS:{
+Installation date:            Apr 17 2017 16:21
+Config version:               PAT.131: PTS-10.0.0-ER6@95902|2017-04-07_10:06:49_+0800
+Config installed by:          gwang@iba-group.com
+Config installation date:     Apr 17 2017 16:22
+PTS version:                  pts: 10.0.0-RC7@94778|2017-03-13_23:53:19_+0800
+PTS installed by:             gwang@iba-group.com
+PTS installation date:        Apr 17 2017 16:36
+PTS DB:                       pts_r1000
+}
+IT:{
+MCR PythonVersion:2.7.12 (default, Jul 01 2016, 15:34:22) [GCC]
+}
+
+2017-10-26 13:57:35,268 root         Thread-7: DEBUG    data_type: pts tcs
+2017-10-26 13:57:56,849 root         Thread-7: DEBUG    checksum: 6d6efd3a162347ca7f03cfec4337d595
+2017-10-26 13:59:01,987 root         Thread-7: DEBUG    section: TCS
+2017-10-26 13:59:23,936 root         Thread-7: DEBUG    section body: <_sre.SRE_Match object at 0x7f91d11b0378>
+2017-10-26 13:59:44,934 root         Thread-7: DEBUG    checksum: 840e86479a297fb4fac5541f406ad9ce
+2017-10-26 14:02:15,283 root         Thread-7: DEBUG    data: [['               PAT.131', ' 10.0.0-RC7', ' PTS-10.0.0-ER6', '                       pts_r1000', '', [], '', '             gwang']]
+2017-10-26 14:02:28,788 root         Thread-7: DEBUG    section: OIS
+2017-10-26 14:02:29,613 root         Thread-7: DEBUG    section body: <_sre.SRE_Match object at 0x7f91d11d70a8>
+2017-10-26 14:02:31,559 root         Thread-7: DEBUG    checksum: b315b84576308943f31d47a2b9ef733c
+2017-10-26 14:02:38,483 root         Thread-7: DEBUG    data: [['IMPAC Medical Systems, Inc.', '3.14.07A8']]
+2017-10-26 14:02:42,093 root         Thread-7: DEBUG    section: PCVUE
+2017-10-26 14:02:42,095 root         Thread-7: DEBUG    section body: <_sre.SRE_Match object at 0x7f91d11d7288>
+2017-10-26 14:02:42,264 root         Thread-7: DEBUG    checksum: bb85c671e1116d4f2d3bdbc0dbc2cc41
+2017-10-26 14:02:43,194 root         Thread-7: DEBUG    data: [['1.0.8']]
+2017-10-26 14:02:44,661 root         Thread-7: DEBUG    section: PPVS
+2017-10-26 14:02:44,663 root         Thread-7: DEBUG    section body: None
+2017-10-26 14:02:44,834 root         Thread-7: DEBUG    no checksum
+2017-10-26 14:02:45,750 root         Thread-7: DEBUG    data: []
+2017-10-26 14:02:47,458 root         Thread-7: DEBUG    section: IT
+2017-10-26 14:02:47,461 root         Thread-7: DEBUG    section body: <_sre.SRE_Match object at 0x7f91d11d7288>
+2017-10-26 14:02:47,613 root         Thread-7: DEBUG    checksum: 8808d9e8c9adb7494d83cff464f43261
+2017-10-26 14:02:48,606 root         Thread-7: DEBUG    data: [['2.7.12 (default, Jul 01 2016, 15:34:22) [GCC]', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']]
+2017-10-26 14:02:53,208 root         Thread-7: INFO     update freshness for 127.0., tcs

@@ -1,0 +1,17 @@
+Value Site (.*)
+Value PTS (.*)
+Value Config (.*)
+Value DB (.*)
+Value CSname (.*)
+Value List Legacy (.*\[Tag\].*$)
+Value OracleDB (.*)
+Value By (.*)
+
+Start
+  ^PTS version:.*?pts:${PTS}@
+  ^PTS installed by:${By}@
+  ^PTS DB:${DB}
+  ^Installed Clearcase view:${CSname}
+  ^${Legacy}
+  ^Config version:${Site}:${Config}@
+  ^Config DB:${OracleDB}
